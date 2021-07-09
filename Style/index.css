@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+}
+.header{
+    background-color: darkcyan;
+    height: 5rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.header h1{
+    margin: 0;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: normal;
+
+}
+
+.main-cont {
+    margin:auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    width: 30rem;
+    height: 40rem;
+    background-color: #f9f9f9;
+    padding: 1rem;
+}
+
+#display{
+    height: 45%;
+    background-color: white;
+}
+
+#keyboard{
+    height: 60% ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.key{
+    width: 21%;
+    background-color: white;
+    color: darkcyan;
+    font-size: 2rem;
+    height: 15%;
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-key{
+    width: 100%;
+}
